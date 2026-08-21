@@ -53,4 +53,5 @@ Columnas con valores vacíos:
 Age: 177 vacíos
 Cabin: 687 vacíos
 Embarked: 2 vacíos
+mm
 
