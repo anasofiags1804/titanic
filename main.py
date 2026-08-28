@@ -55,6 +55,17 @@ df.to_csv("data/titanic_limpio.csv", index=False)
 # El Titanic tenia la politica "mujeres y ninos primero" en los 
 # botes salvavidas. Van a comprobarlo con los numeros.
 
+supervivencia_genero = df.groupby('Pclass')['Survived'].mean()
+print (supervivencia_genero)
+
+supervivencia_genero.plot(kind='bar', title='supervivencia mujeres y ninos primero')
+plt.ylabel('proporcion de supervivientes ')
+plt.savefig('resultados/supervivencia_genero_.png')
+plt.show()
+
+supervivencia_ninos = df[df['Age']< 12]['Survived'].mean()
+print("proporcion de supervivencia en ninos (<12 anos):",supervivencia_ninos)
+
 # --------------------------------------------
 # PASO 6: EJEMPLO RESUELTO - Supervivencia por clase
 # --------------------------------------------
@@ -71,6 +82,14 @@ plt.show()
 # --------------------------------------------
 # Repitan el mismo patron del Paso 6, pero agrupando por "Sex" 
 # en vez de "Pclass". Guarden como resultados/supervivencia_genero.png
+
+supervivencia_genero = df.groupby("Sex")['Survived'].mean()
+print (supervivencia_genero)
+
+supervivencia_genero.plot(kind='bar', title='Supervivencia por genero')
+plt.ylabel('Proporcion de sobrevivientes')
+plt.savefig("resultados/supervivencia_genero.png")
+plt.show ()
 
 
 # En su README: 

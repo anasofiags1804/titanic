@@ -54,7 +54,6 @@ Age: 177 vacíos
 Cabin: 687 vacíos
 Embarked: 2 vacíos
 
-
-
+## Analisis de los sobrevivientes 
 
 
