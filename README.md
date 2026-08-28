@@ -57,3 +57,12 @@ Embarked: 2 vacíos
 ## Analisis de los sobrevivientes 
 
 
+En el analisis realizado se confirma que las mujeres fueron las primeras en subir a los botes salvavidas ,por ende fueron las mas salvadas
+
+En el analisis se comprobo que la mayoria de sobrevivientes pertenecian a la primera  clase.
+
+
+Niños (<12 años): también tuvieron una tasa de supervivencia más alta que el promedio.
+
+Esto confirma la política del Titanic de “mujeres y niños primero” en los botes salvavidas
+
