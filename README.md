@@ -66,3 +66,4 @@ Niños (<12 años): también tuvieron una tasa de supervivencia más alta que el
 
 Esto confirma la política del Titanic de “mujeres y niños primero” en los botes salvavidas
 
+#sof remueve el comit ,el hard :borra todos los cambios 
