@@ -75,3 +75,16 @@ dataset del Titanic está completo: se hizo la limpieza de datos,
 se identificaron los valores faltantes, y se documentaron los 
 hallazgos principales sobre la supervivencia (por clase, género y edad). 
 Por eso merece ser la primera versión estable del proyecto.
+
+## Git Stash y Git Tag
+
+**git stash**: guarda temporalmente los cambios que he hecho en el 
+código pero que todavía no he comiteado, dejando la carpeta de trabajo 
+limpia como si nada hubiera cambiado. Es útil cuando necesito cambiar 
+de tarea rápidamente sin perder el progreso que llevaba. Después puedo 
+recuperar esos cambios con `git stash pop` o `git stash apply`.
+
+**git tag**: marca un commit específico como una versión importante 
+del proyecto (por ejemplo v1.0). Sirve para poder volver exactamente 
+a esa versión más adelante, como cuando se entrega algo a un cliente 
+o se cierra una etapa del proyecto.
